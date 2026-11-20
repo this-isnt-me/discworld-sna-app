@@ -1,7 +1,54 @@
+# Brand theme derived from image/logo.svg
+#   Teal   #00A5B5 -> #004C54  (hexagon + nodes)
+#   Burgundy #8A0A0A -> #420404 (figure)
+# Light and dark variants are both defined, so the viewer's settings toggle stays available.
+
 [theme]
-base                    = "dark"
-primaryColor            = "#007480"
-backgroundColor         = "#0d1117"
-secondaryBackgroundColor = "#161b22"
-textColor               = "#e6edf3"
-font                    = "sans serif"
+font = "Inter:https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+headingFont = "'Source Serif 4':https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,600;8..60,700&display=swap"
+headingFontWeights = [700, 600, 600, 600, 600, 600]
+baseRadius = "medium"
+buttonRadius = "medium"
+paddingTop = "2rem"
+paddingBottom = "3rem"
+metricValueFontWeight = 600
+linkUnderline = false
+
+[theme.sidebar]
+paddingTop = "1rem"
+
+[theme.light]
+primaryColor = "#007480"
+linkColor = "#007480"
+backgroundColor = "#FBFAF7"
+secondaryBackgroundColor = "#F1EEE7"
+textColor = "#1F2328"
+borderColor = "#E2DED4"
+redColor = "#8A0A0A"
+dataframeHeaderBackgroundColor = "#EAF4F5"
+
+[theme.light.sidebar]
+backgroundColor = "#F3F1EB"
+secondaryBackgroundColor = "#FBFAF7"
+textColor = "#1F2328"
+borderColor = "#E2DED4"
+primaryColor = "#007480"
+linkColor = "#007480"
+
+[theme.dark]
+primaryColor = "#00838F"
+linkColor = "#3CC6D3"
+backgroundColor = "#0D1117"
+secondaryBackgroundColor = "#161B22"
+textColor = "#E6EDF3"
+borderColor = "#2A313C"
+redColor = "#E0605A"
+dataframeHeaderBackgroundColor = "#13262A"
+
+[theme.dark.sidebar]
+backgroundColor = "#11161D"
+secondaryBackgroundColor = "#1A212B"
+textColor = "#E6EDF3"
+borderColor = "#2A313C"
+primaryColor = "#00838F"
+linkColor = "#3CC6D3"
